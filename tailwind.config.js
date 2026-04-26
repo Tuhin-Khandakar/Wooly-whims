@@ -11,8 +11,16 @@ export default {
     ],
     theme: {
         extend: {
+            colors: {
+                'brand-cream': '#FAF8F3',
+                'brand-sage': '#8FAF6E',
+                'brand-sage-dark': '#708E55',
+            },
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['"DM Sans"', ...defaultTheme.fontFamily.sans],
+                serif: ['"Playfair Display"', ...defaultTheme.fontFamily.serif],
+                cormorant: ['"Cormorant Garamond"', 'serif'],
+                lora: ['"Lora"', 'serif'],
             },
         },
     },
